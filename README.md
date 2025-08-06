@@ -157,6 +157,5 @@ Distributed under the BSD 3-Clause License. See `LICENSE` for more information.
 
 ## 📞 **Contact**
 
-**Hoang Hong Quan**
 > discord [Halbmond](https://discord.gg/halbmond) &nbsp;&middot;&nbsp;
 > Email: snipez@nizira1n.de
