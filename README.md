@@ -97,39 +97,39 @@
    - On **Windows**, run `opencore-efi-autosetuper.bat`.
    - On **macOS**, run `opencore-efi-autosetuper.command`.
 
-   ![opencore-efi-autosetuper Menu](https://i.imgur.com/vTr1V9D.png)
+   ![opencore-efi-autosetuper Menu]()
 
 3. **Selecting hardware report**:
    - On Windows, there will be an option for `E. Export hardware report`. It's recommended to use this for the best results with your hardware configuration and BIOS at the time of building.
    - Alternatively, use [**Hardware Sniffer**](https://github.com/lzhoang2801/Hardware-Sniffer) to create a `Report.json` and ACPI dump for configuration manully.
 
-   ![Selecting hardware report](https://i.imgur.com/MbRmIGJ.png)
+   ![Selecting hardware report]()
 
-   ![Loading ACPI Tables](https://i.imgur.com/SbL6N6v.png)
+   ![Loading ACPI Tables]()
 
-   ![Compatibility Checker](https://i.imgur.com/kuDGMmp.png)
+   ![Compatibility Checker]()
 
 4. **Selecting macOS Version and Customizing OpenCore EFI**:
    - By default, the latest compatible macOS version will be selected for your hardware.
    - OpCore Simplify will automatically apply essential ACPI patches and kexts. 
    - You can manually review and customize these settings as needed.
 
-   ![opencore-efi-autosetuper Menu](https://i.imgur.com/TSk9ejy.png)
+   ![opencore-efi-autosetuper Menu]()
 
 5. **Building OpenCore EFI**:
    - Once you've customized all options, select **Build OpenCore EFI** to generate your EFI.
    - The tool will automatically download the necessary bootloader and kexts, which may take a few minutes.
 
-   ![WiFi Profile Extractor](https://i.imgur.com/71TkJkD.png)
+   ![WiFi Profile Extractor]()
 
-   ![Choosing Codec Layout ID](https://i.imgur.com/Mcm20EQ.png)
+   ![Choosing Codec Layout ID]()
 
-   ![Building OpenCore EFI](https://i.imgur.com/deyj5de.png)
+   ![Building OpenCore EFI]()
 
 6. **USB Mapping**:
    - After building your EFI, follow the steps for mapping USB ports.
 
-   ![Results](https://i.imgur.com/MIPigPF.png)
+   ![Results]()
 
 7. **Create USB and Install macOS**: 
    - Use [**UnPlugged**](https://github.com/corpnewt/UnPlugged) on Windows to create a USB macOS installer, or follow [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html) for macOS.
