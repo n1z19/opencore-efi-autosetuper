@@ -1,6 +1,6 @@
 <br/>
 <div align="center">
-  <h3 align="center">OpCore Simplify</h3>
+  <h3 align="center">opencore-efi-autosetuper</h3>
 
   <p align="center">
     A specialized tool that streamlines <a href="https://github.com/acidanthera/OpenCorePkg">OpenCore</a> EFI creation by automating the essential setup process and providing standardized configurations. Designed to reduce manual effort while ensuring accuracy in your Hackintosh journey.
@@ -28,19 +28,14 @@
 > - Test configurations yourself
 > - Prefer reading documentation directly from the GitHub repositories of bootloaders and kexts you plan to use
 
-> [!IMPORTANT]
-> If the installation process is successful using OpCore Simplify, please confirm it at [Successful Hackintosh Setup with OpCore Simplify](https://github.com/lzhoang2801/OpCore-Simplify/discussions/23). 
-> This will greatly assist others in the community.
->
-> OpCore Simplify is the ONLY tool that builds OpenCore EFI based on your complete hardware configuration, not just predefined options. This fundamental difference sets us apart from other tools in the Hackintosh community.
 
 > [!NOTE]
-> While OpCore Simplify significantly reduces setup time, the Hackintosh journey still requires:
+> While opencore-efi-autosetuper significantly reduces setup time, the Hackintosh journey still requires:
 > - Understanding basic concepts from the [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 > - Testing and troubleshooting during the installation process
 > - Patience and persistence in resolving any issues that arise
 >
-> Our tool doesn't eliminate these steps, but it ensures you start with a solid foundation.
+> This tool doesn't eliminate these steps, but it ensures you start with a solid foundation.
 
 ## ✨ **Features**
 
@@ -96,17 +91,13 @@
 
 ## 🚀 **How To Use**
 
-1. **Download OpCore Simplify**:
-   - Click **Code** → **Download ZIP**, or download directly via this [link](https://github.com/lzhoang2801/OpCore-Simplify/archive/refs/heads/main.zip).  
-   - Extract the downloaded ZIP file to your desired location.
+1. **Download opencore-efi-autosetuper**:
 
-   ![Download OpCore Simplify](https://i.imgur.com/mcE7OSX.png)
+2. **Running opencore-efi-autosetuper**:
+   - On **Windows**, run `opencore-efi-autosetuper.bat`.
+   - On **macOS**, run `opencore-efi-autosetuper.command`.
 
-2. **Running OpCore Simplify**:
-   - On **Windows**, run `OpCore-Simplify.bat`.
-   - On **macOS**, run `OpCore-Simplify.command`.
-
-   ![OpCore Simplify Menu](https://i.imgur.com/vTr1V9D.png)
+   ![opencore-efi-autosetuper Menu](https://i.imgur.com/vTr1V9D.png)
 
 3. **Selecting hardware report**:
    - On Windows, there will be an option for `E. Export hardware report`. It's recommended to use this for the best results with your hardware configuration and BIOS at the time of building.
@@ -123,7 +114,7 @@
    - OpCore Simplify will automatically apply essential ACPI patches and kexts. 
    - You can manually review and customize these settings as needed.
 
-   ![OpCore Simplify Menu](https://i.imgur.com/TSk9ejy.png)
+   ![opencore-efi-autosetuper Menu](https://i.imgur.com/TSk9ejy.png)
 
 5. **Building OpenCore EFI**:
    - Once you've customized all options, select **Build OpenCore EFI** to generate your EFI.
@@ -167,10 +158,5 @@ Distributed under the BSD 3-Clause License. See `LICENSE` for more information.
 ## 📞 **Contact**
 
 **Hoang Hong Quan**
-> Facebook [@macforce2601](https://facebook.com/macforce2601) &nbsp;&middot;&nbsp;
-> Telegram [@lzhoang2601](https://t.me/lzhoang2601) &nbsp;&middot;&nbsp;
-> Email: lzhoang2601@gmail.com
-
-## 🌟 **Star History**
-
-[![Star History Chart](https://api.star-history.com/svg?repos=lzhoang2801/OpCore-Simplify&type=Date)](https://star-history.com/#lzhoang2801/OpCore-Simplify&Date)
+> discord [Halbmond](https://discord.gg/halbmond) &nbsp;&middot;&nbsp;
+> Email: snipez@nizira1n.de
